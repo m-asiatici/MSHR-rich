@@ -1,0 +1,243 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+| Date         : Tue Jul  3 20:59:28 2018
+| Host         : lap-laptop-3 running 64-bit Ubuntu 18.04 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'spmv_mult_axis_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of spmv_mult_axis_0 (xilinx.com:hls:spmv_mult_axis:1.0) from (Rev. 1807032054) to (Rev. 1807032058)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+| Date         : Tue Jul  3 20:55:32 2018
+| Host         : lap-laptop-3 running 64-bit Ubuntu 18.04 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'spmv_mult_axis_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of spmv_mult_axis_0 (xilinx.com:hls:spmv_mult_axis:1.0) from (Rev. 1807031956) to (Rev. 1807032054)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'spmv_mult_axis_0'.
+
+
+-Upgrade has removed interface 'output_stream'
+
+-Upgrade has removed interface 'row_size_stream'
+
+-Upgrade has added interface 'output_size_loopback' (xilinx.com:signal:data:1.0)
+
+-Upgrade has added interface 'output_stream_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'row_size_stream_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'spmv_mult_axis_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'output_stream_TDATA'
+
+-Upgrade has removed port 'output_stream_TKEEP'
+
+-Upgrade has removed port 'output_stream_TLAST'
+
+-Upgrade has removed port 'output_stream_TREADY'
+
+-Upgrade has removed port 'output_stream_TVALID'
+
+-Upgrade has removed port 'row_size_stream_TDATA'
+
+-Upgrade has removed port 'row_size_stream_TKEEP'
+
+-Upgrade has removed port 'row_size_stream_TLAST'
+
+-Upgrade has removed port 'row_size_stream_TREADY'
+
+-Upgrade has removed port 'row_size_stream_TVALID'
+
+-Upgrade has added port 'output_size_loopback'
+
+-Upgrade has added port 'output_size_loopback_ap_vld'
+
+-Upgrade has added port 'output_stream_V_TDATA'
+
+-Upgrade has added port 'output_stream_V_TREADY'
+
+-Upgrade has added port 'output_stream_V_TVALID'
+
+-Upgrade has added port 'row_size_stream_V_TDATA'
+
+-Upgrade has added port 'row_size_stream_V_TREADY'
+
+-Upgrade has added port 'row_size_stream_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+| Date         : Tue Jul  3 19:58:32 2018
+| Host         : lap-laptop-3 running 64-bit Ubuntu 18.04 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'spmv_mult_axis_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of spmv_mult_axis_0 (xilinx.com:hls:spmv_mult_axis:1.0) from (Rev. 1807021002) to (Rev. 1807031956)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'spmv_mult_axis_0'.
+
+
+-Upgrade has removed interface 'output_stream_V'
+
+-Upgrade has removed interface 'row_size_stream_V'
+
+-Upgrade has added interface 'output_stream' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'row_size_stream' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'spmv_mult_axis_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'output_stream_V_TDATA'
+
+-Upgrade has removed port 'output_stream_V_TREADY'
+
+-Upgrade has removed port 'output_stream_V_TVALID'
+
+-Upgrade has removed port 'row_size_stream_V_TDATA'
+
+-Upgrade has removed port 'row_size_stream_V_TREADY'
+
+-Upgrade has removed port 'row_size_stream_V_TVALID'
+
+-Upgrade has added port 'output_stream_TDATA'
+
+-Upgrade has added port 'output_stream_TKEEP'
+
+-Upgrade has added port 'output_stream_TLAST'
+
+-Upgrade has added port 'output_stream_TREADY'
+
+-Upgrade has added port 'output_stream_TVALID'
+
+-Upgrade has added port 'row_size_stream_TDATA'
+
+-Upgrade has added port 'row_size_stream_TKEEP'
+
+-Upgrade has added port 'row_size_stream_TLAST'
+
+-Upgrade has added port 'row_size_stream_TREADY'
+
+-Upgrade has added port 'row_size_stream_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
+| Date         : Mon Jul  2 10:03:51 2018
+| Host         : lap-laptop-3 running 64-bit Ubuntu 18.04 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'spmv_mult_axis_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of spmv_mult_axis_0 (xilinx.com:hls:spmv_mult_axis:1.0) from (Rev. 1806291905) to (Rev. 1807021002)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'spmv_mult_axis_0'.
+
+
+-Upgraded interface 'output_stream_V' (xilinx.com:interface:axis:1.0) differs from original interface 'xilinx.com:interface:acc_fifo_write:1.0'
+
+-Upgrade has removed interface 'row_size_fifo_V'
+
+-Upgrade has added interface 'row_size_stream_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'spmv_mult_axis_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'output_stream_V_din'
+
+-Upgrade has removed port 'output_stream_V_full_n'
+
+-Upgrade has removed port 'output_stream_V_write'
+
+-Upgrade has removed port 'row_size_fifo_V_din'
+
+-Upgrade has removed port 'row_size_fifo_V_full_n'
+
+-Upgrade has removed port 'row_size_fifo_V_write'
+
+-Upgrade has added port 'output_stream_V_TDATA'
+
+-Upgrade has added port 'output_stream_V_TREADY'
+
+-Upgrade has added port 'output_stream_V_TVALID'
+
+-Upgrade has added port 'row_size_stream_V_TDATA'
+
+-Upgrade has added port 'row_size_stream_V_TREADY'
+
+-Upgrade has added port 'row_size_stream_V_TVALID'
+
+

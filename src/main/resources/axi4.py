@@ -1,0 +1,53 @@
+__port_map = {
+    'AWID'     : 'io_{0}_writeAddr_bits_id',
+    'AWADDR'   : 'io_{0}_writeAddr_bits_addr',
+    'AWLEN'    : 'io_{0}_writeAddr_bits_burst_len',
+    'AWSIZE'   : 'io_{0}_writeAddr_bits_burst_size',
+    'AWBURST'  : 'io_{0}_writeAddr_bits_burst_burst',
+    'AWLOCK'   : 'io_{0}_writeAddr_bits_lock_lock',
+    'AWCACHE'  : 'io_{0}_writeAddr_bits_cache_cache',
+    'AWPROT'   : 'io_{0}_writeAddr_bits_prot_prot',
+    'AWQOS'    : 'io_{0}_writeAddr_bits_qos',
+    'AWREGION' : 'io_{0}_writeAddr_bits_region',
+    'AWUSER'   : 'io_{0}_writeAddr_bits_user',
+    'AWVALID'  : 'io_{0}_writeAddr_valid',
+    'AWREADY'  : 'io_{0}_writeAddr_ready',
+    'WID'      : 'io_{0}_writeData_bits_id',
+    'WDATA'    : 'io_{0}_writeData_bits_data',
+    'WSTRB'    : 'io_{0}_writeData_bits_strb_strb',
+    'WLAST'    : 'io_{0}_writeData_bits_last',
+    'WUSER'    : 'io_{0}_writeData_bits_user',
+    'WVALID'   : 'io_{0}_writeData_valid',
+    'WREADY'   : 'io_{0}_writeData_ready',
+    'BID'      : 'io_{0}_writeResp_bits_bid',
+    'BRESP'    : 'io_{0}_writeResp_bits_bresp',
+    'BUSER'    : 'io_{0}_writeResp_bits_buser',
+    'BVALID'   : 'io_{0}_writeResp_valid',
+    'BREADY'   : 'io_{0}_writeResp_ready',
+    'ARID'     : 'io_{0}_readAddr_bits_id',
+    'ARADDR'   : 'io_{0}_readAddr_bits_addr',
+    'ARLEN'    : 'io_{0}_readAddr_bits_burst_len',
+    'ARSIZE'   : 'io_{0}_readAddr_bits_burst_size',
+    'ARBURST'  : 'io_{0}_readAddr_bits_burst_burst',
+    'ARLOCK'   : 'io_{0}_readAddr_bits_lock_lock',
+    'ARCACHE'  : 'io_{0}_readAddr_bits_cache_cache',
+    'ARPROT'   : 'io_{0}_readAddr_bits_prot_prot',
+    'ARQOS'    : 'io_{0}_readAddr_bits_qos',
+    'ARREGION' : 'io_{0}_readAddr_bits_region',
+    'ARUSER'   : 'io_{0}_readAddr_bits_user',
+    'ARVALID'  : 'io_{0}_readAddr_valid',
+    'ARREADY'  : 'io_{0}_readAddr_ready',
+    'RID'      : 'io_{0}_readData_bits_id',
+    'RDATA'    : 'io_{0}_readData_bits_data',
+    'RRESP'    : 'io_{0}_readData_bits_resp',
+    'RLAST'    : 'io_{0}_readData_bits_last',
+    'RUSER'    : 'io_{0}_readData_bits_user',
+    'RVALID'   : 'io_{0}_readData_valid',
+    'RREADY'   : 'io_{0}_readData_ready'
+}
+
+def get_port_dict(name):
+    retdict = {}
+    for k, v in __port_map.items():
+        retdict[k] = v.format(name)
+    return retdict

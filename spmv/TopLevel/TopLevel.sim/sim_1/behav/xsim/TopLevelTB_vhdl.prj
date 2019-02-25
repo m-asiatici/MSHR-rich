@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TopLevel.srcs/sources_1/ip/floating_point_0_1/demo_tb/tb_floating_point_0.vhd" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/ip/spmv_mult_axis_ap_fmul_3_max_dsp_32.vhd" \
+"../../../../TopLevel.srcs/sources_1/ip/spmv_mult_axis_0_2/sim/spmv_mult_axis_0.vhd" \
+"../../../../TopLevel.srcs/sources_1/new/TopLevel.vhd" \
+"../../../../../../../../src/test/scala/util/txt_util.vhd" \
+"../../../../TopLevel.srcs/sim_1/new/TopLevelTB.vhd" \
+
+# Do not sort compile order
+nosort

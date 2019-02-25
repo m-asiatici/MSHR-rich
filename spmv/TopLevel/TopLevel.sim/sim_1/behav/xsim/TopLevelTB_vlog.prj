@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TopLevel.srcs/sources_1/ip/floating_point_0_1/floating_point_0_sim_netlist.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/spmv_mult_axis_AXILiteS_s_axi.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/start_for_Loop_4_dEe.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/spmv_mult_axis.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/Loop_1_proc18.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/spmv_mult_axis_entry.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/Block_proc.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/spmv_mult_axis_fmbkb.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/fifo_w32_d2_A.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/fifo_w32_d1_A.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/start_for_Block_pcud.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/Loop_3_proc20.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/Loop_2_proc19.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/Loop_4_proc21.v" \
+"../../../../TopLevel.ip_user_files/ipstatic/hdl/verilog/spmv_mult_axis_vect_m_axi.v" \
+"../../../../../TLASTGenerator/TLASTGenerator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/asiatici/epfl/memory-coalescer/vivado/spmv/spmv-hls/TLASTGenerator/src/main/scala/tlastgen/TLASTGenerator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(tlastgen.DataAndLast, tlastgen.TLASTGenerator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/asiatici/epfl/memory-coalescer/vivado/spmv/spmv-hls/TLASTGenerator/target/scala-2.11/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.1.7:compile for Scala 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.1.7:compile for Scala 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3736e9e2 for Scala compiler version 2.11.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/asiatici/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/asiatici/epfl/memory-coalescer/vivado/spmv/spmv-hls/TLASTGenerator/target/scala-2.11/classes:/home/asiatici/.ivy2/cache/edu.berkeley.cs/chisel3_2.11/jars/chisel3_2.11-3.1.1.jar:/home/asiatici/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar:/home/asiatici/.ivy2/cache/com.github.scopt/scopt_2.11/jars/scopt_2.11-3.6.0.jar:/home/asiatici/.ivy2/cache/edu.berkeley.cs/firrtl_2.11/jars/firrtl_2.11-1.1.1.jar:/home/asiatici/.ivy2/cache/org.antlr/antlr4/jars/antlr4-4.7.jar:/home/asiatici/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.7.jar:/home/asiatici/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.5.2.jar:/home/asiatici/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.8.jar:/home/asiatici/.ivy2/cache/org.abego.treelayout/org.abego.treelayout.core/bundles/org.abego.treelayout.core-1.0.3.jar:/home/asiatici/.ivy2/cache/org.glassfish/javax.json/bundles/javax.json-1.0.4.jar:/home/asiatici/.ivy2/cache/com.ibm.icu/icu4j/jars/icu4j-58.2.jar:/home/asiatici/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/bundles/scala-logging_2.11-3.7.2.jar:/home/asiatici/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/asiatici/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/home/asiatici/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/home/asiatici/.ivy2/cache/net.jcazevedo/moultingyaml_2.11/jars/moultingyaml_2.11-0.4.0.jar:/home/asiatici/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/jars/nscala-time_2.11-2.14.0.jar:/home/asiatici/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.4.jar:/home/asiatici/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar:/home/asiatici/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.17.jar:/home/asiatici/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.5.3.jar:/home/asiatici/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.5.3.jar:/home/asiatici/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.5.3.jar:/home/asiatici/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.5.3.jar:/home/asiatici/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar:/home/asiatici/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar:/home/asiatici/.ivy2/cache/edu.berkeley.cs/chisel-iotesters_2.11/jars/chisel-iotesters_2.11-1.2.1.jar:/home/asiatici/.ivy2/cache/edu.berkeley.cs/firrtl-interpreter_2.11/jars/firrtl-interpreter_2.11-1.1.1.jar:/home/asiatici/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.1.jar:/home/asiatici/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar:/home/asiatici/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/asiatici/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.13.4.jar:/home/asiatici/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/home/asiatici/.ivy2/cache/org.scala-lang.modules/scala-jline/bundles/scala-jline-2.12.1.jar:/home/asiatici/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.18759523 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

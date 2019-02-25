@@ -1,0 +1,2 @@
+floating_point_0_sim_netlist.v,verilog,xil_defaultlib,../../../../TopLevel.srcs/sources_1/ip/floating_point_0_1/floating_point_0_sim_netlist.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

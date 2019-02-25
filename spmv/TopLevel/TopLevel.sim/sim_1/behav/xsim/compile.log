@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/asiatici/epfl/memory-coalescer/vivado/spmv/spmv-hls/TopLevel/TopLevel.srcs/sources_1/new/TopLevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TopLevel
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/asiatici/epfl/memory-coalescer/vivado/spmv/spmv-hls/TopLevel/TopLevel.srcs/sim_1/new/TopLevelTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TopLevelTB

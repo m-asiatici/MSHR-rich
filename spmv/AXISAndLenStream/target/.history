@@ -1,0 +1,6 @@
+test:runMain tlastgen.TLASTGenerator
+exit
+test:runMain axislenstream.AXISAndLenStream
+exit
+test:runMain axislenstream.AXISAndLenStream
+exit
