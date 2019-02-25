@@ -1,4 +1,4 @@
-# An Efficient Non-Blocking Cache for FPGAs Able to Handle Thousands of Outstanding Misses
+# Stop Crying Over Your Cache Miss Rate: Handling Efficiently Thousands of Outstanding Misses in FPGAs
 
 This repository contains the full Chisel source code of a highly flexible, FPGA-optimized, multi-banked non-blocking cache. The block RAM-based MSHRs (miss status holding registers) can support tens of thousands of outstanding misses, minimizing pipeline stalls due to the memory system and increasing the performance of bandwidth-bound, latency insensitive accelerators.
 
