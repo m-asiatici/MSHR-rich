@@ -12,7 +12,7 @@ Arrays (FPGA ’19), February 24–26, 2019, Seaside, CA, USA.](https://doi.org/
 Please cite that paper when using this hardware module.
 
 ## Overview
-![System block diagram](https://raw.githubusercontent.com/m-asiatici/MSHR-rich/master/doc/system.svg)
+![System block diagram](doc/system.svg)
 
 The full pipeline is as follows:
 1) **Validation and generation of the configuration file**. Use our System Configurator GUI to generate a valid configuration for the non-blocking cache. Refer to the Wiki for the full documentation on the parameters.
