@@ -76,7 +76,7 @@ Example invocation:
 ```
 mkdir matrices
 cd matrices
-python3 ../util/mm_matrix_to_csr.py -a 1..4 -i matrix.mtx
+python3 ../util/mm_matrix_to_csr.py -a 1..4 -i -s -v matrix.mtx
 ```
 The script generates a folder structure that should be copied as it is to an SD card formatted with FAT file system. In the example above, you should copy all the *content* of the `matrices` folder to the SD card, except for the `.mtx` and `.pickle` files. In other words, the root of the SD card should contain one folder per benchmark, each containing one folder per possible number of parallel accelerators (1 to 4 in the example above).
 
