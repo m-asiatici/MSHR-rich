@@ -1,5 +1,7 @@
 # Stop Crying Over Your Cache Miss Rate: Handling Efficiently Thousands of Outstanding Misses in FPGAs
 
+**This repository has been migrated to https://github.com/EPFL-LAP/fpga19-MOMS and will no longer be maintained.**
+
 This repository contains the full Chisel source code of a highly flexible, FPGA-optimized, multi-banked non-blocking cache. The block RAM-based MSHRs (miss status holding registers) can support tens of thousands of outstanding misses, minimizing pipeline stalls due to the memory system and increasing the performance of bandwidth-bound, latency insensitive accelerators.
 
 Full details are provided in the [wiki](https://github.com/m-asiatici/MSHR-rich/wiki) and in our paper:
